@@ -1,0 +1,610 @@
+/* 初始化样式 */
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,a,i,em,b,strong,img,input{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: inherit;
+	cursor: pointer;
+}
+ul,
+ol,
+li{
+	list-style: none;
+}
+
+
+/* 公共样式 */
+.container {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+
+input {
+	background: none;
+	outline: none;  /* 处理输入框蓝色边 */
+	padding: 0px;
+}
+
+.clear:after{
+	content: "";
+	clear: both;
+	display: block;
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+}
+.clear{
+	zoom:l;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+h1{
+	font-size: 22px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 18px;
+}
+h4{
+	font-size: 16px;
+}
+h5{
+	font-size: 14px;
+}
+h6{
+	font-size: 12px;
+}
+
+
+
+
+/*  -------------------------- 公共模块                    ---------------------------------     */
+/* 头部css begin */
+
+.head1 {
+		width: 100%;
+		background: #333333;
+}
+.head2{
+	width: 1226px;
+	height: 100px;
+	margin: 0 auto;
+}
+.head1 div.hl {
+	float: left;
+	width: 678px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.head1 div.hl a,
+.head1 div.hr a,
+.head1 div.hr i {
+	display: inline-block;
+	text-align: left;
+	font-size: 12px;
+	text-decoration: none;
+	color: #b0b0b0;
+}
+
+.head1 div.hr {
+	float: right;
+	display: inline-block;
+	width: 356px;
+}
+
+.head1 div.hr_1 {
+	float: right;
+	line-height: 40px;
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+}
+
+.head1 div.hr_2 {
+	float: right;
+	display: inline-block;
+	background-color: #424242;
+	text-align: left;
+	width: 126px;
+	height: 40px;
+}
+
+.head1 div.hr i {
+	margin-left: 10px;
+	display: inline-block;
+	width: 126px;
+	height: 40px;
+	line-height: 40px;
+	font-style: normal;
+	text-align: center;
+	background-color: #424242;
+	background: url(../img/img_mi/car.png) no-repeat 8px 8px;
+	background-size: 26px;
+
+}
+
+.head1 div.hl a:hover,
+.head1 div.hr_1 a:hover {
+	color: white;
+}
+
+.head1 div.hl span,
+.head1 div.hr span,
+	{
+	margin: 0 .2em;
+	color: #424242;
+}
+
+.logo {
+	float: left;
+	width: 220px;
+	height: 100px;
+}
+
+.logo a {
+	margin: 22px 0;
+	display: inline-block;
+	background: #FF6700 url(../img/img_mi/mi-logo.png) no-repeat center center;
+	width: 55px;
+	height: 55px;
+	text-indent: -99px;
+	overflow: hidden;
+}
+
+div.headcenter {
+	float: left;
+	width: auto;
+	height: auto;
+}
+
+.headcenter .headcenterli {
+	float: left;
+	text-align: center;
+	line-height: 100px;
+	list-style: none;
+	display: inline-block;
+}
+
+.headcenter .headcenterli a {
+	text-decoration: inherit;
+	text-size: 16px;
+	color: #333333;
+	padding: 0 10px;
+}
+
+/* .headcenter .headcenterli a:hover {
+	color: #FFA500;
+} */
+.headcenter .headcenterli a.con{
+	color: #FFA500;
+}
+
+/* 头部hover begin */
+
+.tophoverimg{
+	height: 0px;
+	width:1226px;
+	background-color: #FFFFFF;
+	position: absolute;
+	top:140px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 900;
+	border-top: #E0E0E0 solid 1px;
+	display: none;
+	}
+
+.tophoverimg .tophoverimgol{
+	width:1226px;
+	height: auto;
+	margin: 0 auto;
+}
+/* .tophoverimg .tophoverimgol .con{
+	display: block;
+} */
+.tophoverimg .tophoverimgli{
+	position: relative;
+	width:204px;
+	height: 229px;
+}
+.tophoverimg .tophoverimg1{
+	float: left;
+	width: 160px;
+	height: 110px;
+	margin: 36px 22px 15px 22px;
+	/* margin : 35px auto 20px auto; */
+}
+.tophoverimga{
+	display: inline-block;
+	width:204px;
+	height: 229px;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+.tophoverimga .tophoversapn1{
+	float: left;
+	color:#333;
+	line-height: 20px;
+	font-size:12px;
+	width: 204px;
+	margin-bottom: 9px;
+}
+
+.tophoverimga .tophoversapn2{
+	float: left;
+	color:#FF6700;
+	line-height: 12px;
+	font-size:12px;
+	width: 204px;
+}
+.tophovertext{
+	position: absolute;
+	top: -1px;
+	left: 0 ;
+	right: 0 ;
+	margin: auto;
+	width: 64px;
+	height: 20px;
+	border: #FF6700 solid 1px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	color: #FF6700;
+}
+.shu {
+	position: absolute;
+	z-index: 100;
+	top: 40px;
+	right: -1px;
+	width: 1px;
+	height: 100px;
+	background-color: #E0E0E0;
+}
+.baishu{
+	background-color: #fff!important;
+}
+/* 头部hover end */
+
+.sslang {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 296px;
+	margin-top: 25px;
+}
+
+.sslang input {
+	background: none;
+}
+
+.sslang input.text {
+	text-decoration: inherit;
+	display: block;
+	float: left;
+	width: 244px;
+	height: 48px;
+	padding: 0;
+	border-right: 0px solid;
+	border-left: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	text-indent: 0.7em;
+}
+.sslang:hover .text{
+	border-color: #707070;
+}
+.sslang:hover .btn{
+	border-color: #707070;
+}
+/* 点击后 边搜索框变化 */
+#sslang .con{
+	border-color: #FF6700;
+}
+
+/* 点击后边搜索框变化 end*/
+
+/* 搜索框下方div begin*/
+.sslangtable {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 0px;
+	z-index: 200;
+	width: 244px;
+	height: 300px;
+	border-right: #FFA500 solid 1px;
+	border-bottom: #FFA500 solid 1px;
+	border-left: #FFA500 solid 1px;
+
+}
+
+.sslangtable>a {
+	padding-left: 14px;
+	padding-right: 0px;
+	text-decoration: inherit;
+	display: inline-block;
+	width: 230px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 11px;
+	background-color: #FFFFFF ;
+	color: #757575;
+}
+
+.sslangtable a:hover {
+	background-color: #FAFAFA ;
+	color: #000 ;
+}
+
+.sslang input.btn {
+	background-image: url(../img/img_mi/ss.png);
+	display: block;
+	float: left;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	border: #e0e0e0 solid 1px;
+	outline: none;
+	/* 去除按钮样式 */
+}
+
+.sslang div.atext {
+	width: 150px;
+	/* 输入框文字定位 */
+	position: absolute;
+	top: 13px;
+	left: 129px;
+}
+
+.sslang>.atext>a {
+	background-color: #eeeeee;
+	font-size: 11px;
+	text-decoration: inherit;
+	color: #757575;
+	padding: 0 7px;
+}
+
+.sslang>.atext>a:hover {
+	color: #ffffff;
+	background-color: #ff6700;
+}
+
+/* 头部css  end */
+
+/* -----------------------------------结尾 板块----------------------------------------  */
+
+/* 尾部css begin */
+
+/* 结尾 begin */
+.footer{
+	background-color: #FFFFFF;
+	width: 100%;
+	}
+.footer-top{
+	background-color: #FFFFFF;
+	width: 1226px;
+	margin: 0 auto;
+	padding-top: 50px;
+	}
+.footer ul{
+	width: 1226px;
+	margin: 0 auto;
+	text-align: center;
+	border-bottom: #E0E0E0 solid 1px;
+}	
+.footer li{
+	float: left;
+	width: 243px;
+	height: 27px;
+	font-size: 16px;
+	text-align: center;
+	margin: 26px 0;
+	border-right: #E0E0E0 solid 1px;
+}
+.footer li:last-child{
+	float: left;
+	width: 243px;
+	height: 27px;
+	font-size: 16px;
+	text-align: center;
+	margin: 26px 0;
+	border-right: #FFFFFF solid 1px;
+}
+
+.footer li i.i1{
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background: #FFFFFF url(../img/img_mi/info.jpg) no-repeat 0px 0px;
+	margin-right: 0px;
+	vertical-align:-7px;
+}
+.footer li i.i2{
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background: #FFFFFF url(../img/img_mi/info.jpg) no-repeat 0px -27px;
+	margin-right: 0px;
+	vertical-align:-7px;
+}
+.footer li i.i3{
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background: #FFFFFF url(../img/img_mi/info.jpg) no-repeat 0px -54px;
+	margin-right: 0px;
+	vertical-align:-7px;
+}
+.footer li i.i4{
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background: #FFFFFF url(../img/img_mi/info.jpg) no-repeat 0px -81px;
+	margin-right: 0px;
+	vertical-align:-7px;
+}
+.footer li i.i5{
+	display: inline-block;
+	width: 27px;
+	height: 27px;
+	background: #FFFFFF url(../img/img_mi/info.jpg) no-repeat 0px -108px;
+	margin-right: 0px;
+	vertical-align:-7px;
+}
+	
+.footer li a{
+	width: 126px;
+	line-height: 27px;
+	text-align: center;
+
+}
+.footer-bottom{
+	width: 1226px;
+	height: 112px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.footer-bottom dl{
+	list-style: none:;
+	float: left;
+	width: 160px;
+	height: 112px;
+}
+.footer-bottom dt.footerdt{
+	font-size:14px;
+	margin-bottom: 26px;
+	
+}
+.footer-bottom dt.footerdt a{
+	color: #424242;
+}
+.footer-bottom dd.footerdd{
+	font-size:12px;
+	margin-top:10px;
+}
+.footer-bottom dd.footerdd a{
+	color:#757575;
+}
+.f-b-right{
+	width: 252px;
+	height: 112px;
+	float: right;
+	border-left:#B0B0B0 solid 1px;
+	text-align: center;
+}
+.f-b-right p.f-b-rightp1{
+	color: #FF6700;
+	font-size: 20px;
+	margin-bottom: 6px;
+}
+.f-b-right p.f-b-rightp2{
+	color: #757575;
+	font-size: 12px;
+	margin-bottom: 20px;
+
+}
+.f-b-right div.footerkf a{
+	display: inline-block;
+	width: 118px;
+	height: 30px;
+	font-size:12px;
+	border:#FF6700 solid 1px;
+	margin: 0 auto;
+	line-height: 30px;
+	background-color: #FFFFFF;
+	color: #FF6700;
+}
+.f-b-right div.footerkf a:hover{
+	background-color: #FF6700;
+	color: #FFFFFF;
+}
+
+/* 结尾 end */
+.banall{
+	height: 100%;
+	background-color: #fff;
+	padding-top:30px;
+}
+/* 备案号 begin */
+.b-a-hao{
+	width:100%
+	height:232px;
+	}
+.b-a-haologo{
+	float: left;
+	display:inline-block;
+	width: 55px;
+	height: 55px;
+	background: #FF6700 url(../img/img_mi/mi-logo.png) no-repeat center;
+	margin-right: 10px;
+}
+.b-a-hao-text{
+	width: 1226px;
+	margin: 0 auto;
+}
+.b-a-hao a{
+	color: #757575;
+}
+.b-a-hao a:hover{
+	color: #FF6700;
+}
+
+.b-a-hao p{
+	display: inline-block;
+	font-size: 11px;
+}
+.b-a-haop1 span{
+	}
+.b-a-haop1{
+	float: left;
+	}
+.b-a-haop2{
+	line-height: 17px;
+	color: #B0B0B0;
+}
+
+/* 备案号下方图标 begin */
+.bahbottom{
+	width: 1226px;
+	padding: 0;
+	padding-left: 122px;
+	margin: 0 auto;
+}
+.bahbottom>a>img{
+	width:85px;
+	height: 28px;
+	margin-top:3px;
+}
+.bahbottom a{
+	width:85px;
+	height: 28px;
+}
+/* 备案号下方图标 end */
+
+/* 备案号下方小米背景 */
+.mibg{
+	margin: 30px auto;
+	width: 267px;
+	height: 19px;
+	background-image: url(../img/img_mi/slogan2016.png);
+}
+
+
+/* 备案号下方小米背景  end*/
+/* 备案号 end */
+
+/* 尾部css edd */

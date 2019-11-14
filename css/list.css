@@ -1,0 +1,234 @@
+/* 轮播图 begin */
+
+.listpiceure,.listpiceure ul{
+	width: 100%;
+	height: 620px;
+	position: relative;
+	
+	}
+.listpiceure li a{
+	position: absolute;
+	left: 0px;
+	top:0px;
+	display: block;
+	width: 100%;
+	height: 620px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 100%;
+}
+/* 轮播图 end */
+
+
+/* 按钮 */
+.listbtn{
+	width: 1266px;
+	margin: 0 auto;
+	position: absolute;
+	top: 50%;
+	left: 0px;
+	right: 0px;
+	margin: auto auto;
+	}
+.listbtnleft {
+	width: 41px;
+	height: 69px;
+	background: url(../img/img_mi/icon-slides.png) no-repeat -83px 0px;
+}
+
+.listbtnleft:hover {
+	width: 41px;
+	height: 69px;
+	background: url(../img/img_mi/icon-slides.png) no-repeat 0px 0px;
+}
+
+.listbtnright {
+	width: 41px;
+	height: 69px;
+	background: url(../img/img_mi/icon-slides.png) no-repeat -124px 0px;
+}
+
+.listbtnright:hover {
+	background: url(../img/img_mi/icon-slides.png) no-repeat -41px 0px;
+}
+
+.minbtn{
+	position: absolute;
+	bottom:20px;
+	left: 50%;
+	z-index: 100;
+}
+.minbtn li{	
+	list-style: none;
+	float: left;
+	width: 6px;
+	height: 6px;
+	background-color: #7B8A97;
+	border: #A6AAAB solid 2px;
+	border-radius: 10px;
+	margin: 0 5px;
+}
+.minbtn li.con{
+	background-color: #EAF7F7;
+	border: #939698 solid 2px;
+}
+.minbtn li:hover{	
+	background-color: #EAF7F7;
+	border: #939698 solid 2px;
+}
+
+
+
+/* 按钮 */
+
+/* 轮播图 end */
+
+
+.zhangshibg {
+	background-color: #F5F5F5;
+	width: 100%;
+	padding-bottom: 20px;
+
+}
+
+.listtexttop {
+	width: 1226px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+.listtexttop h2 {
+	line-height: 60px;
+
+}
+
+.mxcppicture {
+	width: 1266px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.mxcpZS {
+	width: 854px;
+	height: 434px;
+	margin-bottom: 14px;
+}
+
+.mxcpZS a {
+	display: block;
+}
+
+.mxcpZS img {
+	width: 854px;
+	height: 434px;
+
+}
+
+.mxcpSM {
+	position: absolute;
+	bottom: 0px;
+	left: 854px;
+	width: 372px;
+	height: 434px;
+	margin-right: 0px;
+	background-color: #FFFFFF;
+}
+.mxcpSM p{
+	font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.mxcpSM .title {
+	margin-top: 98px;
+	text-align: center;
+
+}
+
+.mxcpSM .title a {
+	font-size: 32px;
+	color: #474747;
+	margin: 0 auto;
+}
+
+.mxcpSM .title2 {
+	color: #707070;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 19px;
+}
+.mxcpSM .title3 {
+	text-align: left;
+	margin-top: 52px;
+	color: #FF6700;
+}
+.mxcpSM span{
+	font-size: 32px;
+	margin-left: 79px;
+}
+.mxcpSM span.title3sp{
+	font-size: 11px;
+	margin: 0;
+}
+.mxcpSM .title4{
+	margin-top: 126px;
+	margin-left: 79px;
+	font-size:14px;
+}
+.mxcpSM .title4>a{
+	color: #E8E8E8;
+}
+.zs2{
+	
+}
+.zs2 .zs2-1{
+	float: left;
+	width: 606px;
+	height:488px;
+	margin:14px 14px 0px 0px;
+}
+.zs2 .zs2-1:nth-child(2n+0){
+	float: left;
+	width: 606px;
+	height:488px;
+	margin:14px 0px 0px 0px;
+}
+.zs2 .zs2-1 .zs2-1img{
+	width: 606px;
+	height:363px;
+	}
+	
+.zs2-1 img{
+	width: 606px;
+	height:363px;
+}
+.zs2-1 .zs2-1sm{
+	background-color: #FFFFFF;
+	width: 606px;
+	height: 125px;
+	position: relative;
+	float: left;
+}
+.zs2-1sm .zs2-1sm_t1{
+	margin: 38px 0 0 48px;
+	
+}
+.zs2-1sm .zs2-1sm_t1 a{
+	font-size: 24px;
+	color: #333333;
+}
+.zs2-1sm .zs2-1sm_t2{
+	margin: 3px 0 0 48px;
+	font-size: 14px;
+	color: #8F8F8F;
+}
+.zs2-1sm .zs2-1sm_t3{
+	position: absolute;
+	right: 48px;
+	bottom:40px;
+	color: #FF6700;
+}
+.zs2-1sm_t3 .zs2-1sm_t3span1{
+	font-size: 30px;
+}
+.zs2-1sm_t3 .zs2-1sm_t3span2{
+	font-size: 12px;
+}
